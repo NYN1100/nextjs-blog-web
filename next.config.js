@@ -10,7 +10,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   experimental: {
-    forceSwcTransforms: true,
+    appDir: false,
   },
 };
 
