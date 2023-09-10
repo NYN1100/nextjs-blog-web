@@ -1,6 +1,6 @@
 import React from "react";
 import { BlogsTypes } from "@/interfaces/blogs.interfaces";
-import { BlogService } from "@/services/blog.service";
+import { BlogService } from "@/pages/api/blog.service";
 import { CategoryType } from "@/interfaces/categories.interfaces";
 import { GetServerSideProps } from "next";
 import Layout from "@/layout/layout";

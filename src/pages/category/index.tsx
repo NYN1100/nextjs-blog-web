@@ -1,6 +1,6 @@
 import { CategoryType } from "@/interfaces/categories.interfaces";
 import Layout from "@/layout/layout";
-import { BlogService } from "@/services/blog.service";
+import { BlogService } from "@/pages/api/blog.service";
 import { Box, Button, Divider, Typography } from "@mui/material";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";

@@ -1,6 +1,6 @@
 import { BlogsTypes } from "@/interfaces/blogs.interfaces";
 import Layout from "@/layout/layout";
-import { BlogService } from "@/services/blog.service";
+import { BlogService } from "@/pages/api/blog.service";
 import { GetServerSideProps } from "next";
 import React from "react";
 import { Box, Typography, Avatar } from "@mui/material";

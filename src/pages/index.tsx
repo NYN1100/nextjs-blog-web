@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import Layout from "@/layout/layout";
 import { Hero } from "@/components";
 import { Sidebar, Content } from "@/components";
-import { BlogService } from "@/services/blog.service";
+import { BlogService } from "@/pages/api/blog.service";
 import { GetServerSideProps } from "next";
 import { BlogsTypes } from "@/interfaces/blogs.interfaces";
 import { CategoryType } from "@/interfaces/categories.interfaces";
