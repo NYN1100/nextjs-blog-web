@@ -26,7 +26,7 @@ export default function MyApp(props: MyAppProps) {
 
   useEffect(() => {
     const handleRouteStart = () => NProgress.start();
-    const handleRouteDone = () => NProgress.done();
+    const handleRouteDone: any = () => NProgress.done();
 
     router.events.on("routeChangeStart", handleRouteStart);
     router.events.on("routeChangeComplete", handleRouteDone);
@@ -38,7 +38,7 @@ export default function MyApp(props: MyAppProps) {
       router.events.off("routeChangeComplete", handleRouteDone);
       router.events.off("routeChangeError", handleRouteDone);
     };
-  }, []);
+  }, [props]);
   return (
     <CacheProvider value={emotionCache}>
       <Head>

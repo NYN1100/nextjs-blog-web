@@ -9,7 +9,6 @@ import { calcEstimatedTimeToRead } from "@/helpers/time.format";
 import { useRouter } from "next/router";
 
 const Sidebar = ({ latestBlogs, categories }: SidebarProps): JSX.Element => {
-  console.log(categories);
   const router = useRouter();
   return (
     <Box width={{ xs: "100%", md: "30%" }}>
